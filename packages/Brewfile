@@ -1,0 +1,45 @@
+cask_args appdir: "/Applications"
+
+# Taps.
+tap "caskroom/cask"
+tap "caskroom/fonts"
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "homebrew/services"
+
+# Brews.
+brew "awscli"
+brew "git"
+brew "memcached"
+brew "m-cli"
+brew "node"
+brew "heroku"
+brew "postgresql", restart_service: true
+brew "rbenv"
+brew "redis"
+brew "wget"
+brew "yarn"
+
+# Casks.
+cask "atom"
+cask "flow"
+cask "github"
+cask "google-chrome"
+cask "quip"
+cask "slack"
+
+# Fonts.
+cask "font-aleo"
+cask "font-bitter"
+cask "font-hack"
+cask "font-inconsolata"
+cask "font-lato"
+cask "font-lobster"
+cask "font-montserrat"
+cask "font-nunito"
+cask "font-open-sans"
+cask "font-pacifico"
+cask "font-roboto"
+cask "font-roboto-slab"
+cask "font-source-sans-pro"
+cask "font-source-serif-pro"
