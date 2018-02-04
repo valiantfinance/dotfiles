@@ -11,7 +11,6 @@ minimap-selection
 minimap-find-and-replace
 minimap-highlight-selected
 minimap-linter
-minimap-highlight-selected
 pigments
 sublime-style-column-selection
 language-haml
@@ -19,3 +18,4 @@ linter-rubocop
 linter-haml
 linter-sass-lint
 teletype
+ruby-block
